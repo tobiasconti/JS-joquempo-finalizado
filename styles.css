@@ -1,0 +1,146 @@
+body {
+    background-color: #82cdff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.winner-title {
+    width: 430px;
+    height: 74px;
+    background-color: #0099FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 33px;
+    font-weight: 700;
+    border-radius: 12px 12px 0 0;
+}
+
+.scoreboard {
+    width: 950px;
+    height: 148px;
+    background-color: #0099FF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 17px;
+
+}
+
+.scoreboard-player-name {
+    color: #FFFFFF;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.score {
+    height: 120px;
+    width: 130px;
+    text-align: center;
+    line-height: 108px;
+    background-color: #FFFFFF;
+    border-radius: 17px;
+    color: #0099FF;
+    font-size: 104px;
+    font-weight: 900;
+}
+
+.small-vs {
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 58px;
+    margin: 0 20px;
+}
+
+.battle-field {
+    margin-top: 56px;
+    height: 414px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.button {
+    width: 220px;
+    height: 80px;
+    background-color: #0099FF;
+    color: #FFFFFF;
+    font-size: 44px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 300ms;
+    box-shadow: 5px 5px 10px #FFFFFF;
+}
+
+.button:hover {
+    border: 1px solid #0099FF;
+    background-color: transparent;
+    color: #0099FF;
+    box-shadow: 1px 1px 1px #FFFFFF;
+    transform: scale(1.1);
+}
+
+.field-box {
+    width: 1313px;
+    height: 414px;
+    background-color: #0099FF;
+    margin: 0 19px;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.field {
+    width: 464px;
+    height: 345px;
+    border-radius: 17px;
+    background-color: #dbf1ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-vs {
+    font-size: 104px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.config {
+    margin-top: 22px;
+}
+
+
+.reset-button {
+    margin-left: 101px;
+}
+
+.player-move {
+    width: 70%;
+    height: 70%;
+}
+
+.player-2-field img {
+    transform:scaleX(-1)
+
+}
+
+.start {
+    background-color: transparent;
+}

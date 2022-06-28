@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="winner-title">Resultado</h1>
+    <section class="scoreboard">
+        <span class="scoreboard-player-name">Jogadora 1</span>
+        <strong class="score player-1-score">00</strong>
+        <strong class="small-vs">vs</strong>
+        <strong class="score player-2-score">00</strong>
+        <span class="scoreboard-player-name">Jogadora 2</span>
+    </section>
+    <section class="battle-field">
+        <div class="button-wrapper">
+            <button class="button-play button rock-button-player-1">Pedra</button>
+            <button class="button-play button paper-button-player-1">Papel</button>
+            <button class="button-play button scissors-button-player-1">Tesoura</button>
+        </div>
+        <div class="field-box">
+            <div class="field player-1-field"></div>
+            <strong class="big-vs">VS</strong>
+            <div class="field player-2-field"></div>
+        </div>
+        <div class="button-wrapper">
+            <button class="button-play button rock-button-player-2">Pedra</button>
+            <button class="button-play button paper-button-player-2">Papel</button>
+            <button class="button-play button scissors-button-player-2">Tesoura</button>
+        </div>
+    </section>
+    <section class="config">
+        <button class="button start-button">Iniciar</button>
+        <button class="button reset-button">Resetar</button>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
